@@ -3,10 +3,12 @@
   "configurations": {
     "omavarasto": {
       "appLocation": ".",
-      "outputLocation": "build",
+      "outputLocation": "dis",
       "appBuildCommand": "npm run build",
       "run": "npm start",
-      "appDevserverUrl": "http://localhost:3000"
+      "appDevserverUrl": "http://localhost:3000",
+      "apiLanguage": "Node",
+      "apiVersion": "20"
     }
   }
 }
